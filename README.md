@@ -11,13 +11,13 @@ GitHub README — Professional / Senior-Engineer Style
 
 <div align="center">
 
-<img src="assets/badges/splunk-enterprise.svg" alt="Splunk Enterprise">
-<img src="assets/badges/spl.svg" alt="SPL Querying">
-<img src="assets/badges/windows-security-logs.svg" alt="Windows Security Logs">
-<img src="assets/badges/siem.svg" alt="SIEM SOC">
-<img src="assets/badges/threat-detection.svg" alt="Threat Detection">
-<img src="assets/badges/completed.svg" alt="Completed">
-<img src="assets/badges/mit-license.svg" alt="MIT License">
+<img src="badges/splunk-enterprise.svg" alt="Splunk Enterprise">
+<img src="badges/spl.svg" alt="SPL Querying">
+<img src="badges/windows-security-logs.svg" alt="Windows Security Logs">
+<img src="badges/siem.svg" alt="SIEM SOC">
+<img src="badges/threat-detection.svg" alt="Threat Detection">
+<img src="badges/completed.svg" alt="Completed">
+<img src="badges/mit-license.svg" alt="MIT License">
 
 </div>
 
@@ -60,31 +60,8 @@ The architecture below shows the security telemetry flow from Windows endpoints 
 
 ### 🔄 Security Analysis Flow
 
-```text
-Windows Security Events
-        │
-        ▼
-   Log Collection
-        │
-        ▼
-  Splunk Enterprise
-        │
-        ▼
-     SPL Search
-        │
-        ├── Event Distribution Analysis
-        │
-        ├── Failed Logon Detection (4625)
-        │
-        └── Trend / Frequency Analysis
-        │
-        ▼
- Splunk Visualization
-        │
-        ▼
- SOC Investigation & Monitoring
-```
-
+<img src="assets/Security-Analysis-Flow.png" alt="Security Analysis Flow" width="100%">
+ 
 ---
 
 ## 🛠️ Tools & Technologies
