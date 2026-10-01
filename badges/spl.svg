@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="34" viewBox="0 0 150 34">
+<rect width="150" height="34" rx="8" fill="#0B2435" stroke="#00AEEF"/>
+<text x="15" y="22" font-family="Segoe UI,Arial" font-size="14" font-weight="700" fill="#fff">SPL</text>
+<text x="48" y="22" font-family="Segoe UI,Arial" font-size="13" font-weight="600" fill="#7DD3FC">Querying</text>
+</svg>
